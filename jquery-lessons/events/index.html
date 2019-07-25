@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Lesson | Events</title>
+	<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+	<style>
+		body{
+			width:90%;
+			margin:auto;
+		}
+	</style>
+</head>
+<body>
+
+		<h3>Mouse Events</h3>
+		<button id="btn-1" class="btnClass">Button 1</button>
+		<button id="btn2">Button 2</button>
+		<p class="para">jQuery is built on top of JavaScript, a rich and expressive language in its own right. This section covers the basic concepts of JavaScript, as well as some frequent pitfalls for people who have not used JavaScript before. While it will be of particular value to people with no programming experience</p>
+		
+		<hr>
+		<form id="form">
+			<label>Name</label><br>
+			<input type="text" id="name" name="name">
+			<br>
+			<label>Email</label><br>
+			<input type="text" id="email" name="email">
+			<br>
+			<label>Gender</label><br>
+			<select id="gender" name="gender">
+				<option value="male">Male</option>
+				<option value="female">Female</option>
+			</select>
+			<br>
+			<input type="submit" value="Submit">
+		</form>
+
+
+	<script>
+		$(document).ready(function(){
+
+			// $('#btn-1').click(function(){
+			// 	alert('Button Clicked!');
+			// });
+
+		// 	$('#btn-1').on('click', function(){
+		// 		alert('Button Clicked!');
+		// 	});
+
+			// $('#btn-1').on('click', function(){
+			// 	$('.para').hide();
+			// 	// $('.para').toggle();
+			// });
+
+		// 	$('#btn2').on('click', function(){
+		// 		$('.para').show();
+		// 	});
+			
+
+		// 	$('#btn-1').dblclick(function(){
+		// 		$('.para').toggle();
+		// 	});
+
+		// 	$('#btn-1').hover(function(){
+		// 		$('.para').toggle();
+		// 	});
+
+		// 	$('#btn-1').on('mouseenter', function(){
+		// 		$('.para').toggle();
+		// 	});
+
+		// 	$('#btn-1').on('mouseleave', function(){
+		// 		$('.para').toggle();
+		// 	});
+
+		// 	$('#btn-1').on('mousemove', function(){
+		// 		$('.para').toggle();
+		// 	});
+		
+
+		// 	$('#btn-1').on('mousedown', function(){
+		// 		$('.para').toggle();
+		// 	});
+
+		// 	$('#btn-1').on('mouseup', function(){
+		// 		$('.para').toggle();
+		// 	});
+
+		// 	$('#btn-1').click(function(e){
+		// 		//alert(e.currentTarget.id);
+		// 		//alert(e.currentTarget.innerHTML);
+		// 		//alert(e.currentTarget.outerHTML);
+		// 		//alert(e.currentTarget.className);
+		// 	});
+
+		// 	$(document).on('mousemove', function(e){
+		// 		$('#coords').html('Coords: Y: '+e.clientY+" X: "+e.clientX);
+		// 	});
+
+		// 	$('input').focus(function(){
+		// 		//alert('Focus');
+		// 		$(this).css('background', 'pink');
+		// 	});
+
+		// 	$('input').blur(function(){
+		// 		//alert('Focus');
+		// 		$(this).css('background', 'white');
+		// 	});
+
+		// 	$('input').keyup(function(e){
+		// 		console.log(e.target.value);
+		// 	});
+
+
+		// 	$('select#gender').change(function(e){
+		// 		alert(e.target.value);
+		// 	});
+
+		// 	$('#form').submit(function(e){
+		// 		e.preventDefault();
+		// 		var name = $('input#name').val();
+		// 		console.log(name);
+		// 	});
+		});
+	</script>
+</body>
+</html>
