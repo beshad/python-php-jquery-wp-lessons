@@ -1,8 +1,6 @@
 <?php
 /*
- * Template Name: Custom Full Width
- * description: >-
-  Page template without sidebar
+ * Template Name: My Custom Child Theme
  */
 ?>
 <?php get_header('custom'); ?>
