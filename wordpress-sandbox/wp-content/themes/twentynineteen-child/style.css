@@ -1,0 +1,15 @@
+/*
+ Theme Name:   Twenty Nineteen Child Theme
+ description: A child theme of the Twenty nineteen default WordPress theme
+ Author:  beshad
+ Template:  twentynineteen
+ Version:  1.0.0
+*/
+
+@import url("../twentynineteen/style.css");
+
+/* overwrite the main theme styles here */
+
+body {
+  background-color: #000;
+}
