@@ -1,0 +1,4 @@
+Python is a cool and really simple language.
+It is very easy to learn and helps you to solve many complex problems.
+I had the chance to try it out during the past days.
+I really like Python.
