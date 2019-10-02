@@ -9,7 +9,6 @@ $blogs = mysqli_fetch_all($result, MYSQLI_ASSOC);
 mysqli_free_result($result);
 // mysqli_close($result);
 ?>
-<body>
 <div>
     <p>Welcome <?php echo $_SESSION['username']; ?>!</p>
     <h4>This is your home page</h4>
@@ -26,5 +25,3 @@ mysqli_free_result($result);
     <p><a href="logout.php">logout</a></p>
 </div>
 <?php include 'footer.php';?>
-
-<a href=""></a>

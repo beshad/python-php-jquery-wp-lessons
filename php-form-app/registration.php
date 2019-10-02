@@ -1,5 +1,6 @@
 <?php
 require 'db.php';
+include 'header.php';
 if (isset($_POST['username'])) {
 
     $username = $_POST['username'];
@@ -19,12 +20,10 @@ if (isset($_POST['username'])) {
 
     if (mysqli_query($conn, $query)) {
         echo "<h3>You are registered successfully.</h3><br>Click here to <a href='login.php'>Login</a>";
-        // header('Location: login.php');
+        header('Location: login.php');
     }
 } else {
-    include 'header.php';
     ?>
-<body>
     <div>
         <h1>Registration</h1>
         <form name="registration" action="" method="post">
@@ -36,5 +35,4 @@ if (isset($_POST['username'])) {
         <p>Already Registered? <a href='login.php'>Login Here</a></p>
     </div>
 <?php }?>
-</body>
-</html>
+<?php include 'footer.php' ?>
