@@ -1,9 +1,11 @@
 <?php
-      if(isset($_GET['page']) && !empty($_GET['page'])){  
-        $page = $_GET['page'];  
-      } else {
-        $page = 'home';
-      }
+
+$page = $_GET['page'];
+
+if(!$page ){  
+    $page = 'home';
+};
+
 ?>
 
 <!DOCTYPE html>
