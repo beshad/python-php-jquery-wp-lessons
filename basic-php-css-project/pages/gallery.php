@@ -7,4 +7,6 @@
    ?>
 
       <?php echo $number * $number ?>
+
+      <?php echo "my name is $name.";?>
 </main>
