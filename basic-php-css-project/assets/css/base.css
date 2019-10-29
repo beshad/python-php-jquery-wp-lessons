@@ -1,0 +1,10 @@
+*, 
+*::after, 
+*::before {
+    box-sizing: border-box;
+}
+
+.container {
+  max-width: var(--site-width);
+  margin: 0 auto;
+}
