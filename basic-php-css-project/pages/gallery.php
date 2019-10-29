@@ -9,4 +9,11 @@
       <?php echo $number * $number ?>
 
       <?php echo "my name is $name.";?>
+
+      <?php
+            for ($x = 0; $x <= 10; $x++) {
+               echo "The number is: $x <br>";
+            }
+      ?> 
+
 </main>
