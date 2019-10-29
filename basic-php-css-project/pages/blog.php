@@ -5,10 +5,11 @@
     $curl = curl_init();
     curl_setopt_array($curl, [
          CURLOPT_RETURNTRANSFER => 1,
-          CURLOPT_URL => 'https://jsonplaceholder.typicode.com/posts',
+         CURLOPT_URL => 'https://jsonplaceholder.typicode.com/posts',
     ]);
    // Send the request & save response to $resp
    $result = curl_exec($curl);
+   // decode a JSON string into an array
    $data = json_decode($result, true);
 
    echo '<pre>';
